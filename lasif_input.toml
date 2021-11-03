@@ -1,0 +1,13 @@
+[simulation_settings]
+minimum_period_in_s = 60.0
+time_step_in_s = 0.2
+start_time_in_s = -0.2
+
+[salvus_settings]
+ranks = 12
+
+[lasif_project.domain_settings]
+boundary_in_km = 150.0
+
+[lasif_project.download_settings]
+seconds_after_event = 1300.0
